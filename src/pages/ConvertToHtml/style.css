@@ -1,0 +1,78 @@
+textarea {
+  max-width: 1000px;
+  min-width: 1000px;
+  max-height: 200px;
+  min-height: 100px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 18px;
+}
+
+textarea:hover {
+  border: 1px solid #999999;
+}
+
+#viewHtml {
+  width: 1000px;
+  min-height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 25px 0 0 0;
+  padding: 6px;
+}
+
+#viewHtml p {
+  text-align: center;
+  margin: 25px 0;
+}
+
+#value html, #value body, #value div, #value span, #value applet, #value object, #value iframe,
+#value h1, #value h2, #value h3, #value h4, #value h5, #value h6, #value p, #value blockquote, #value pre,
+#value a, #value abbr, #value acronym, #value address, #value big, #value cite, #value code,
+#value del, #value dfn, #value em, #value img, #value ins, #value kbd, #value q, #value s, #value samp,
+#value small, #value strike, #value strong, #value sub, #value sup, #value tt, #value var,
+#value b, #value u, #value i, #value center,
+#value dl, #value dt, #value dd, #value ol, #value ul, #value li,
+#value fieldset, #value form, #value label, #value legend,
+#value table, #value caption, #value tbody, #value tfoot, #value thead, #value tr, #value th, #value td,
+#value article, #value aside, #value canvas, #value details, #value embed, #value 
+figure, #value figcaption, #value footer, #value header, #value hgroup, #value 
+menu, #value nav, #value output, #value ruby, #value section, #value summary,
+#value time, #value mark, #value audio, #value video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#value article, #value aside, #value details, #value figcaption, #value figure, #value 
+footer, #value header, #value hgroup, #value menu, #value nav, #value section {
+	display: block;
+}
+
+#value body {
+	line-height: 1;
+}
+
+#value ol, #value ul {
+	list-style: none;
+}
+
+#value blockquote, #value q {
+	quotes: none;
+}
+
+#value blockquote:before, #value blockquote:after,
+#value q:before, #value q:after {
+	content: '';
+	content: none;
+}
+
+#value table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
